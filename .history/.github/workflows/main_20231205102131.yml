@@ -18,5 +18,5 @@ jobs:
         run: pwd
 
         
-      - name: 'Testing Printing'
-        run: echo Ahmed
+      - name: 'Testing Github action'
+        run: pwd

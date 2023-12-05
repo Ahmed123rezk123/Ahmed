@@ -19,4 +19,4 @@ jobs:
 
         
       - name: 'Testing Printing'
-        run: echo Ahmed
+        run: pwd
