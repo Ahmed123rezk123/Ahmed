@@ -16,3 +16,7 @@ jobs:
     steps:
       - name: 'Printing folder contents'
         run: ls
+
+        
+      - name: 'Testing Printing'
+        run: echo Ahmed

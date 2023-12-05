@@ -14,5 +14,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Printing folder contents'
+      - name: 'Printing'
         run: ls
+
+        
+      - name: 'Testing Printing'
+        run: echo Ahmed
