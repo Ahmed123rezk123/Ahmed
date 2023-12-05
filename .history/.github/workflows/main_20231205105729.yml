@@ -23,5 +23,5 @@ jobs:
       run: docker build -t ${{ secrets.DOCKER_USERNAME }}/pop .
 
     - name: "pushing to docker hub"
-      run: docker push ${{ secrets.DOCKER_USERNAME }}/pop
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/kammun
       
