@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - master
+
+
+
+
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Before'
+        run: ls
+      
+      
